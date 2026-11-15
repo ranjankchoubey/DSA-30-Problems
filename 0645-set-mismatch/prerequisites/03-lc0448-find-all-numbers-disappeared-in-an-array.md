@@ -13,7 +13,18 @@
 
 Value `x` "owns" index `x − 1`. For every `x`, make `nums[x − 1]` **negative** to mean "x was seen". Use `abs()` when reading, because a cell may already be negated. Any index `i` that is still **positive** at the end means `i + 1` never appeared.
 
+## Stuck?
+
+Try for 15–20 minutes first. Then, in order:
+1. Re-read the **Key idea** above.
+2. Primer: [index marking](../../course/primers/01-arrays-and-hashing.md#5-index-marking-values-in-1n)
+3. [LeetCode Editorial](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+find+all+numbers+disappeared+in+an+array)
+4. Open the solution below.
+
 ## Solution
+
+<details>
+<summary><b>Show solution</b></summary>
 
 ```python
 class Solution:
@@ -23,6 +34,8 @@ class Solution:
             nums[i] = -abs(nums[i])
         return [i + 1 for i, v in enumerate(nums) if v > 0]
 ```
+
+</details>
 
 **Time:** O(n) · **Space:** O(1) extra (the output doesn't count)
 

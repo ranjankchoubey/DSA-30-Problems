@@ -19,7 +19,18 @@ Return `True` if any value appears at least twice in `nums`, otherwise `False`.
 
 Scan once. Before adding `x` to the set, check whether it's already there.
 
+## Stuck?
+
+Try for 15–20 minutes first. Then, in order:
+1. Re-read the **Key idea** above.
+2. Primer: [hash set and hash map](../../course/primers/01-arrays-and-hashing.md#hash-set-and-hash-map)
+3. [LeetCode Editorial](https://leetcode.com/problems/contains-duplicate/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+contains+duplicate)
+4. Open the solution below.
+
 ## Solution
+
+<details>
+<summary><b>Show solution</b></summary>
 
 ```python
 class Solution:
@@ -31,6 +42,8 @@ class Solution:
             seen.add(x)
         return False
 ```
+
+</details>
 
 **Time:** O(n) · **Space:** O(n)
 

@@ -1,7 +1,7 @@
 # Prerequisites Plan (DRAFT for review)
 
 Each course problem folder will get a `prerequisites/` folder that walks from basics up to that problem.
-**Status:** ✅ 1. Arrays & Hashing built (pilot: Q8, Q7, Q6, Q1). Other sections are still a plan. Edit this file freely: add, remove or reorder steps, then approve.
+**Status:** ✅ All 30 ladders built. Primers live in [primers/](primers/). This file is now the reference index of every step. Edit this file freely: add, remove or reorder steps, then approve.
 
 ## Conventions
 

@@ -4,6 +4,8 @@
 
 **Skill it adds:** turning "count subarrays with sum k" into "count **pairs** of prefix sums whose difference is k", plus knowing why a sliding window can't solve it.
 
+> 📚 **New to this?** Primer: [prefix sum + hash map](../../course/primers/01-arrays-and-hashing.md#4-prefix-sum--hash-map-of-counts-subarray-sum-equals-k)
+
 ## Why not a sliding window?
 
 A sliding window needs a fixed rule: "growing the window increases the sum, shrinking decreases it". That only holds when every value is **non-negative**. With negative values, adding an element can **decrease** the sum, so you can't tell whether to grow or shrink.

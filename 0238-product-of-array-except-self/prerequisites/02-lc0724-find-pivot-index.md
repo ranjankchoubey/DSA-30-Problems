@@ -13,7 +13,18 @@ Return the leftmost index `i` where the sum of elements **strictly left** of `i`
 
 Keep `left` = the sum of everything before `i`, which is a running prefix that **excludes** `i`. Then `right = total − left − nums[i]`, so no second array is needed.
 
+## Stuck?
+
+Try for 15–20 minutes first. Then, in order:
+1. Re-read the **Key idea** above.
+2. Primer: [prefix sums](../../course/primers/01-arrays-and-hashing.md#3-prefix-sums)
+3. [LeetCode Editorial](https://leetcode.com/problems/find-pivot-index/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+find+pivot+index)
+4. Open the solution below.
+
 ## Solution
+
+<details>
+<summary><b>Show solution</b></summary>
 
 ```python
 class Solution:
@@ -26,6 +37,8 @@ class Solution:
             left += x
         return -1
 ```
+
+</details>
 
 **Time:** O(n) · **Space:** O(1)
 

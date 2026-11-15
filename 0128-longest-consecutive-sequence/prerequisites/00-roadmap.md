@@ -2,6 +2,8 @@
 
 **Goal:** given an **unsorted** array, return the length of the longest run of consecutive integers (e.g. 1,2,3,4) in **O(n)**. Sorting is not allowed.
 
+> 📚 **Before you start:** read [Primer 01 · Arrays and Hashing](../../course/primers/01-arrays-and-hashing.md).
+
 ## Skills you need
 
 - [ ] O(1) "is x present?" checks with a hash set

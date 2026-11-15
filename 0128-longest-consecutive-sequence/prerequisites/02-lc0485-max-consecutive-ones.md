@@ -13,7 +13,18 @@ Given a binary array, return the length of the longest run of consecutive `1`s.
 
 Two variables: `cur` (length of the current run) and `best` (longest run so far).
 
+## Stuck?
+
+Try for 15–20 minutes first. Then, in order:
+1. Re-read the **Key idea** above.
+2. Primer: [arrays](../../course/primers/01-arrays-and-hashing.md#python-lists-arrays)
+3. [LeetCode Editorial](https://leetcode.com/problems/max-consecutive-ones/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+max+consecutive+ones)
+4. Open the solution below.
+
 ## Solution
+
+<details>
+<summary><b>Show solution</b></summary>
 
 ```python
 class Solution:
@@ -24,6 +35,8 @@ class Solution:
             best = max(best, cur)
         return best
 ```
+
+</details>
 
 **Time:** O(n) · **Space:** O(1)
 

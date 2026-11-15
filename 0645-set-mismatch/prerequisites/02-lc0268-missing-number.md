@@ -14,7 +14,18 @@
 - **Sum formula:** `0 + 1 + … + n = n(n+1)/2`. The missing number is `expected − sum(nums)`.
 - **XOR:** `a ^ a = 0` and `a ^ 0 = a`. XOR all indices `0..n` with all values; every present number cancels out and only the missing one remains.
 
+## Stuck?
+
+Try for 15–20 minutes first. Then, in order:
+1. Re-read the **Key idea** above.
+2. Primer: [arrays](../../course/primers/01-arrays-and-hashing.md#python-lists-arrays)
+3. [LeetCode Editorial](https://leetcode.com/problems/missing-number/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+missing+number)
+4. Open the solution below.
+
 ## Solution
+
+<details>
+<summary><b>Show solution</b></summary>
 
 ```python
 class Solution:
@@ -33,6 +44,8 @@ class Solution:
             x ^= i ^ v
         return x
 ```
+
+</details>
 
 **Time:** O(n) · **Space:** O(1)
 

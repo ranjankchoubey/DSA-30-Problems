@@ -4,6 +4,8 @@
 
 **Skill it adds:** replacing sorting with set lookups, and spotting **repeated work**.
 
+> 📚 **New to this?** Primer: [hash set](../../course/primers/01-arrays-and-hashing.md#hash-set-and-hash-map)
+
 ## Idea
 
 Put everything in a set. From **every** value `x`, walk `x+1, x+2, …` while the next value is in the set, and track the longest walk.

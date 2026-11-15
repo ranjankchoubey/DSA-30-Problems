@@ -19,7 +19,18 @@ Return the indices of the two numbers that add up to `target`. Exactly one answe
 
 Look up `target − x` **before** inserting `x`, so an element is never paired with itself.
 
+## Stuck?
+
+Try for 15–20 minutes first. Then, in order:
+1. Re-read the **Key idea** above.
+2. Primer: [complement lookup](../../course/primers/01-arrays-and-hashing.md#2-complement-lookup-two-sum)
+3. [LeetCode Editorial](https://leetcode.com/problems/two-sum/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+two+sum)
+4. Open the solution below.
+
 ## Solution
+
+<details>
+<summary><b>Show solution</b></summary>
 
 ```python
 class Solution:
@@ -31,6 +42,8 @@ class Solution:
             index_of[x] = i
         return []
 ```
+
+</details>
 
 **Time:** O(n) · **Space:** O(n)
 

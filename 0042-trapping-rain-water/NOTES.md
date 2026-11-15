@@ -4,6 +4,7 @@
 | --- | --- | --- | --- | --- |
 | Q2 | [42](https://leetcode.com/problems/trapping-rain-water/) | Hard | Two Pointers | ✅ |
 
+> **Start here:** [prerequisites/00-roadmap.md](./prerequisites/00-roadmap.md)
 > **Code:** [0042-trapping-rain-water.py](./0042-trapping-rain-water.py) (auto-synced by LeetHub) · **Problem statement:** [README.md](./README.md) (auto-synced by LeetHub)
 
 ## 1. Case scenario
@@ -18,13 +19,16 @@
 
 ## 3. Approaches
 
-### Approach 1: Brute force
+### Approach 1: Brute force ([step 03](./prerequisites/03-concept-water-at-index.md))
 
 For every `i`, scan left and right to find both maximums. **Time:** O(n²) · **Space:** O(1)
 
-### Approach 2: Prefix and suffix max arrays
+### Approach 2: Prefix and suffix max arrays ([step 04](./prerequisites/04-concept-prefix-suffix-max-arrays.md))
 
 Precompute `L[i] = max(height[0..i])` and `R[i] = max(height[i..n-1])`, then sum `min(L[i], R[i]) - height[i]`. **Time:** O(n) · **Space:** O(n)
+
+<details>
+<summary><b>Show prefix/suffix max solution</b></summary>
 
 ```python
 def trap(height):
@@ -41,9 +45,14 @@ def trap(height):
     return sum(min(L[i], R[i]) - height[i] for i in range(n))
 ```
 
+</details>
+
 ### Approach 3: Monotonic stack (fills water layer by layer horizontally)
 
 Keep a stack of indices with decreasing heights. When a taller bar arrives, pop the "bottom". The water above it is bounded by the new top of the stack (left wall) and the current bar (right wall). **Time:** O(n) · **Space:** O(n)
+
+<details>
+<summary><b>Show monotonic stack solution</b></summary>
 
 ```python
 def trap(height):
@@ -59,11 +68,18 @@ def trap(height):
     return total
 ```
 
+</details>
+
 ### Approach 4: Two pointers (optimal, this is the submitted solution)
+
+Two pointers move inward from both ends with a running `leftMax` and `rightMax`. Process the side whose max is smaller: its water level is already known (§4). **Time:** O(n) · **Space:** O(1)
+
+<details>
+<summary><b>Show optimal solution</b> (try it on LeetCode first)</summary>
 
 ```python
 class Solution:
-    def trap(self, height):
+    def trap(self, height: List[int]) -> int:
         start, end = 0, len(height) - 1
         leftMax = rightMax = totalWater = 0
         while start < end:
@@ -78,7 +94,7 @@ class Solution:
         return totalWater
 ```
 
-**Time:** O(n) · **Space:** O(1)
+</details>
 
 ## 4. Why it works (proof the doc asks for)
 
@@ -119,9 +135,19 @@ The symmetric argument handles the `else` branch. So moving the pointer on the s
 
 ## 8. Follow-up questions (from course doc)
 
+- **Q: Prove why moving the pointer with the smaller height is always safe.**
+  **A:** See §4. If `leftMax < rightMax`, the true right max of `start` is at least `rightMax`, so the lower wall for `start` is `leftMax`, which is already final. Its water `leftMax − height[start]` is decided, and the bars still unseen can't change it. The `else` case is the mirror image.
 - **Q: How do you extend this to a 2D grid ([407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/))?**
   **A:** The two-pointer idea generalises to "always process the lowest wall on the boundary". Push all border cells into a **min-heap** and mark them visited. Repeatedly pop the lowest cell (height `h`). For each unvisited neighbour, add `max(0, h - neighbour)` water and push the neighbour with height `max(h, neighbour)`. The current boundary minimum is the limiting wall, just like the smaller pointer in 1D. **Time:** O(mn log(mn)) · **Space:** O(mn).
 
-## 9. One-line revision
+## 9. Threads
+
+- **Q7** Product of Array Except Self: the same left pass / right pass as Approach 2, with products instead of maximums.
+- **Q1** Subarray Sum Equals K: prefix precomputation, with sums.
+- **Q10** 3Sum: opposite-end pointers; each move discards the side that can't do better.
+- **Q5 / Q15 / Q17** monotonic stack/deque: the same structure as Approach 3.
+- **Q19 / Q29** heap: the 2D follow-up always processes the lowest boundary cell with a min-heap.
+
+## 10. One-line revision
 
 > Water at i = min(maxLeft, maxRight) − h[i]. Move the pointer on the smaller max side, because that side's water level is already decided.

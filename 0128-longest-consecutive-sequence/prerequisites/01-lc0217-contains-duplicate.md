@@ -4,6 +4,8 @@
 
 > ↩ **Taught in full in the Q8 ladder:** [Set Mismatch → Step 01 · Contains Duplicate](../../0645-set-mismatch/prerequisites/01-lc0217-contains-duplicate.md)
 
+> 📚 **New to this?** Primer: [hash set and hash map](../../course/primers/01-arrays-and-hashing.md#hash-set-and-hash-map)
+
 ## Recap
 
 - A Python `set` answers "have I seen `x`?" in **O(1)** average time.

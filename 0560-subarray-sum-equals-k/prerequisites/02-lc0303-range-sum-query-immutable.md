@@ -19,7 +19,18 @@ sum(nums[left .. right]) = P[right + 1] − P[left]
 
 The leading `0` means a range starting at index 0 needs no special case.
 
+## Stuck?
+
+Try for 15–20 minutes first. Then, in order:
+1. Re-read the **Key idea** above.
+2. Primer: [prefix sums](../../course/primers/01-arrays-and-hashing.md#3-prefix-sums)
+3. [LeetCode Editorial](https://leetcode.com/problems/range-sum-query-immutable/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+range+sum+query+immutable)
+4. Open the solution below.
+
 ## Solution
+
+<details>
+<summary><b>Show solution</b></summary>
 
 ```python
 class NumArray:
@@ -31,6 +42,8 @@ class NumArray:
     def sumRange(self, left: int, right: int) -> int:
         return self.prefix[right + 1] - self.prefix[left]
 ```
+
+</details>
 
 **Time:** O(n) to build, O(1) per query · **Space:** O(n)
 

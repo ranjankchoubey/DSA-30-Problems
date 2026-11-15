@@ -2,6 +2,8 @@
 
 **Goal:** for every index `i`, return the product of all **other** elements. No division allowed (some values are zero), O(n) time, O(1) extra space apart from the output.
 
+> 📚 **Before you start:** read [Primer 01 · Arrays and Hashing](../../course/primers/01-arrays-and-hashing.md).
+
 ## Skills you need
 
 - [ ] Build a running (prefix) total in one pass

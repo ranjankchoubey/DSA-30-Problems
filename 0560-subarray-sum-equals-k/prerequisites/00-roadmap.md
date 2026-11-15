@@ -2,6 +2,8 @@
 
 **Goal:** count the contiguous subarrays whose sum is exactly `k`. Values can be **negative**, so a sliding window doesn't work. Required: **O(n)**.
 
+> 📚 **Before you start:** read [Primer 01 · Arrays and Hashing](../../course/primers/01-arrays-and-hashing.md).
+
 ## Skills you need
 
 - [ ] "Look back for a complement" with a hash map

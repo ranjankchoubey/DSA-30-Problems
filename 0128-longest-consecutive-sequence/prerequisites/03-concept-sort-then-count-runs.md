@@ -4,6 +4,8 @@
 
 **Skill it adds:** a correct, simple baseline, and the **duplicate** pitfall.
 
+> 📚 **New to this?** Primer: [arrays and sorting](../../course/primers/01-arrays-and-hashing.md#python-lists-arrays)
+
 ## Idea
 
 After sorting, consecutive values sit next to each other. Run step 02's counter with the condition `nums[i] == nums[i−1] + 1`.

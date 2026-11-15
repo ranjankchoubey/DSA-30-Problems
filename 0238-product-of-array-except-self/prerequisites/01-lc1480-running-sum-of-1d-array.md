@@ -13,7 +13,18 @@ Return an array where `out[i] = nums[0] + nums[1] + … + nums[i]`.
 
 Don't re-add everything for each `i`, which is O(n²). Carry a running `total` forward: `out[i] = out[i−1] + nums[i]`.
 
+## Stuck?
+
+Try for 15–20 minutes first. Then, in order:
+1. Re-read the **Key idea** above.
+2. Primer: [prefix sums](../../course/primers/01-arrays-and-hashing.md#3-prefix-sums)
+3. [LeetCode Editorial](https://leetcode.com/problems/running-sum-of-1d-array/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+running+sum+of+1d+array)
+4. Open the solution below.
+
 ## Solution
+
+<details>
+<summary><b>Show solution</b></summary>
 
 ```python
 class Solution:
@@ -25,6 +36,8 @@ class Solution:
             out.append(total)
         return out
 ```
+
+</details>
 
 **Time:** O(n) · **Space:** O(1) extra (the output doesn't count)
 

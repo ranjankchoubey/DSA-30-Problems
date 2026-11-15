@@ -4,6 +4,8 @@
 
 **Skill it adds:** building **exclusive** prefix and suffix arrays in two passes, one in each direction.
 
+> 📚 **New to this?** Primer: [prefix sums](../../course/primers/01-arrays-and-hashing.md#3-prefix-sums)
+
 ## Idea
 
 For each `i`:
