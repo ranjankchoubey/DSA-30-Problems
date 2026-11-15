@@ -3,10 +3,10 @@
 All 30 problems in 4 days, in teaching order. Each of the 10 patterns gets:
 
 - a **primer** (15 min): the pattern, its template, and when to use it
-- **1 ★ anchor problem** (50–60 min): taught in full, with students writing the code
+- **1 ★ anchor problem** (50–60 min): taught in full, from brute force to optimal, with the code written on the board
 - **walkthroughs** (20 min each) for its other problems: trigger, key insight, dry run, core code
 
-Students do the **prerequisite steps as homework** using the repo. Mastering all 30 takes about **40–50 hours of self-study** after the course.
+This is a **lecture, not a lab**: students don't code in class. They think, answer your questions, and predict what comes next. All coding happens at home: the **prerequisite steps** and **re-solving the problems on LeetCode** using the repo. Mastering all 30 takes about **40–50 hours of self-study** after the course.
 
 > Times assume **09:30–12:30** (forenoon) and **13:30–16:30** (afternoon). Shift them to fit the venue.
 
@@ -18,15 +18,18 @@ Students do the **prerequisite steps as homework** using the repo. Mastering all
 | Brute force together | 10 | Key insight (box it on the board) | 5 |
 | Guided questions to the insight | 15 | Dry run on the board example | 7 |
 | Dry run on the board | 10 | Core code + complexity | 5 |
-| **Students code it** on LeetCode | 15 | | |
+| **Code on the board**: you write it line by line; before each key line, ask *"what comes next?"* | 10 | | |
+| Edge cases + common bugs: *"what breaks if we remove this line?"* | 5 | | |
 | One follow-up question from the course doc | 5 | | |
 
 Board layout every time: **Problem & insight | Dry run | Code & complexity**.
 
+**Keeping students active without coding:** ask a question and wait 10 seconds before answering it yourself · have them predict the next row of the dry run · ask *"which pattern?"* before revealing it · ask for a show of hands on A/B choices (*"move left or right pointer?"*).
+
 ## Before Day 1
 
 - [ ] Send students the repo link and ask them to read [START_HERE](../START_HERE.md) and [Primer 00](primers/00-how-to-approach-a-new-problem.md).
-- [ ] Students need a **LeetCode account** and basic Python (lists, dicts, loops, functions).
+- [ ] Students need basic Python (lists, dicts, loops, functions) to follow the board code, and a **LeetCode account** for homework.
 - [ ] Ask the venue: whiteboard / digital board / projector + HDMI? Wi-Fi?
 - [ ] Bring: charged tablet, HDMI adapter, printed lesson cards, 3 marker colours.
 
@@ -57,7 +60,7 @@ Board layout every time: **Problem & insight | Dry run | Code & complexity**.
 | 15:05 | 10 | *Break* | | |
 | 15:15 | 15 | [Primer 03 · Sliding Window](primers/03-sliding-window.md) | Expand right; shrink left while invalid | — |
 | 15:30 | 20 | [Q9 · Longest Substring with At Most K Distinct](../0340-longest-substring-with-at-most-k-distinct-characters/NOTES.md) 🔒 | Count letters in the window; shrink while distinct > k | `"eceba", k=2` → 3 |
-| 15:50 | 30 | **Lab:** students solve Q8, Q7 or Q2 on LeetCode; you help one-to-one | | |
+| 15:50 | 30 | **Pattern drill + doubts:** read 6 one-line problem descriptions; students call out the pattern and key insight; then open questions on today's problems | | |
 | 16:20 | 10 | Recap + exit question: *"Count subarrays of `[3,-3,1,-1]` with sum 0?"* (answer 3: prefix + hash map) | | |
 
 **Homework:** re-solve Q1 and Q10 from memory · prerequisite steps for [Q8](../0645-set-mismatch/prerequisites/00-roadmap.md), [Q7](../0238-product-of-array-except-self/prerequisites/00-roadmap.md), [Q4](../0076-minimum-window-substring/prerequisites/00-roadmap.md)
