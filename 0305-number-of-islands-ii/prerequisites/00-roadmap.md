@@ -4,7 +4,7 @@
 
 > 📚 **Before you start:** read [Primer 08 · Graphs](../../course/primers/08-graphs.md).
 
-> 🔒 The target is LeetCode Premium. Every step below is free; LC 200 and LC 684 are the free alternatives listed in the README.
+> 🔒 The target is LeetCode Premium. Every step below is free; LC 200 and LC 684 are the free alternatives listed in [INDEX.md](../../INDEX.md).
 
 ## Skills you need
 
