@@ -200,3 +200,15 @@ def network_delay_bellman_ford(times, n, k):
 ## 10. One-line revision
 
 > Dijkstra: min-heap of (time, node); the first pop of a node is final (weights ≥ 0); answer = max time, or -1 if not every node was popped.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 26 of 30** · Advanced Graphs (1 of 3)
+
+[← Previous: Q27 · Number of Islands II](../0305-number-of-islands-ii/NOTES.md) · [Course index](../INDEX.md) · [Next: Q28 · Cheapest Flights Within K Stops →](../0787-cheapest-flights-within-k-stops/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

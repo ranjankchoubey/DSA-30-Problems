@@ -105,3 +105,15 @@ class Solution:
 ## 10. One-line revision
 
 > Exclusive prefix products into `out`, then multiply in an exclusive running suffix from the right. Two passes, no division.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 2 of 30** · Arrays & Hashing (2 of 4)
+
+[← Previous: Q8 · Set Mismatch](../0645-set-mismatch/NOTES.md) · [Course index](../INDEX.md) · [Next: Q6 · Longest Consecutive Sequence →](../0128-longest-consecutive-sequence/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

@@ -154,3 +154,15 @@ Tree `[3,5,1,6,2,0,8,null,null,7,4]`:
 ## 10. One-line revision
 
 > Postorder: return how many of p, q are below; record the first node where that count hits 2; no early return, so a missing node gives None.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 20 of 30** · Trees (2 of 4)
+
+[← Previous: Q24 · Construct Binary Tree from Preorder and Inorder Traversal](../0105-construct-binary-tree-from-preorder-and-inorder-traversal/NOTES.md) · [Course index](../INDEX.md) · [Next: Q22 · Binary Tree Maximum Path Sum →](../0124-binary-tree-maximum-path-sum/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

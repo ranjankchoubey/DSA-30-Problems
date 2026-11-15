@@ -162,3 +162,15 @@ The loop ends at `i = n − 3 = 3`. Result: `[[-1,-1,2],[-1,0,1]]`.
 ## 10. One-line revision
 
 > Sort; for each distinct nums[i] (compare with the previous one), two pointers on the right find pairs summing to −nums[i]; after a match move both and skip copies of nums[l].
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 5 of 30** · Two Pointers (1 of 2)
+
+[← Previous: Q1 · Subarray Sum Equals K](../0560-subarray-sum-equals-k/NOTES.md) · [Course index](../INDEX.md) · [Next: Q2 · Trapping Rain Water →](../0042-trapping-rain-water/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

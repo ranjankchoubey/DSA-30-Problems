@@ -16,6 +16,8 @@ INDEX.md → NNNN-slug/prerequisites/00-roadmap.md → (primer) → step 01 → 
 
 Every step links back to its roadmap, every last step leads to NOTES, and every NOTES has a **Start here** link back to the roadmap.
 
+At the bottom of every NOTES, **Course navigation** links to the previous problem and to the **next problem's roadmap**, in teaching order. It also flags when a new pattern starts and which primer to read. You can go through the whole course from Q8 to Q11 without returning to the index.
+
 ## Workflow per problem
 
 1. Open `NNNN-slug/prerequisites/00-roadmap.md` and work through the steps in order.

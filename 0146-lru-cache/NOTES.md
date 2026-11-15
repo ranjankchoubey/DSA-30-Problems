@@ -201,3 +201,15 @@ The shard capacities add up to exactly `capacity`. With `shards=1` this is the s
 ## 10. One-line revision
 
 > Dict key → node plus a doubly linked list with dummy head and tail; every use unlinks the node and appends it before tail; evict head.next and delete its key.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 16 of 30** · Linked List (1 of 3)
+
+[← Previous: Q3 · Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/NOTES.md) · [Course index](../INDEX.md) · [Next: Q18 · Reverse Nodes in k-Group →](../0025-reverse-nodes-in-k-group/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

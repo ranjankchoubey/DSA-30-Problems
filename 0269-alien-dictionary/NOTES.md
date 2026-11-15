@@ -165,3 +165,17 @@ All 5 letters placed → **"wertf"**. Here the order is unique because the edges
 ## 10. One-line revision
 
 > First different letter of each adjacent pair → edge; longer word before its prefix → ""; Kahn's topological sort, and if not all letters come out → "".
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 28 of 30** · Advanced Graphs (3 of 3)
+
+[← Previous: Q28 · Cheapest Flights Within K Stops](../0787-cheapest-flights-within-k-stops/NOTES.md) · [Course index](../INDEX.md) · [Next: Q12 · Longest Palindromic Substring →](../0005-longest-palindromic-substring/prerequisites/00-roadmap.md)
+
+> 🧭 **Next pattern: 1-D DP.** Read [10 · 1-D DP primer](../course/primers/10-1d-dp.md) before starting Q12.
+
+<!-- course-nav:end -->

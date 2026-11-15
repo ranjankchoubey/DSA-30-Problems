@@ -173,3 +173,15 @@ def min_semesters(num_courses, prerequisites):
 ## 10. One-line revision
 
 > Edge b → a with in-degree on a; queue every in-degree-0 course, pop and free its neighbours; fewer than n popped means a cycle → []. Levels of that BFS = minimum semesters.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 23 of 30** · Graphs (1 of 3)
+
+[← Previous: Q21 · Serialize and Deserialize Binary Tree](../0297-serialize-and-deserialize-binary-tree/NOTES.md) · [Course index](../INDEX.md) · [Next: Q26 · Word Ladder →](../0127-word-ladder/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

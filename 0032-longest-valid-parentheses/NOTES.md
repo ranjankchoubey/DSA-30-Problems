@@ -172,3 +172,15 @@ And why the counter needs two passes, on TC 1, `s = "(()"` → `2`:
 ## 10. One-line revision
 
 > Unmatched brackets split the string into valid runs: stack of indices with base −1 (measure `i − stack[-1]`), DP on the run ending at `i`, or two counter passes (reset on extra `)` left→right, extra `(` right→left).
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 13 of 30** · Stack (4 of 5)
+
+[← Previous: Q15 · Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/NOTES.md) · [Course index](../INDEX.md) · [Next: Q16 · Basic Calculator III →](../0772-basic-calculator-iii/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

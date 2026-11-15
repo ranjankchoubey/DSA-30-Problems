@@ -171,3 +171,17 @@ def max_in_time_windows(times, values, span):
 ## 10. One-line revision
 
 > Deque of indices with decreasing values: pop the back while nums[back] ≤ x, append i, pop the front if it is ≤ i − k, and from i = k − 1 read nums[dq[0]].
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 9 of 30** · Sliding Window (3 of 3)
+
+[← Previous: Q4 · Minimum Window Substring](../0076-minimum-window-substring/NOTES.md) · [Course index](../INDEX.md) · [Next: Q20 · Min Stack →](../0155-min-stack/prerequisites/00-roadmap.md)
+
+> 🧭 **Next pattern: Stack.** Read [04 · Stack primer](../course/primers/04-stack.md) before starting Q20.
+
+<!-- course-nav:end -->

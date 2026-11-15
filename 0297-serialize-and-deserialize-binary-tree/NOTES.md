@@ -253,3 +253,17 @@ def deserialize_bst(data: bytes) -> Optional[TreeNode]:
 ## 10. One-line revision
 
 > Preorder, write `#` for every None, join with commas; read back with an iterator and the same recursion (value → node, then left, then right).
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 22 of 30** · Trees (4 of 4)
+
+[← Previous: Q22 · Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/NOTES.md) · [Course index](../INDEX.md) · [Next: Q25 · Course Schedule II →](../0210-course-schedule-ii/prerequisites/00-roadmap.md)
+
+> 🧭 **Next pattern: Graphs.** Read [08 · Graphs primer](../course/primers/08-graphs.md) before starting Q25.
+
+<!-- course-nav:end -->

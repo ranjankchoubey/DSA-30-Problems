@@ -137,3 +137,15 @@ def longest_palindrome_manacher(s):
 ## 10. One-line revision
 
 > Try all 2n − 1 centres (characters and gaps), expand while ends match, keep the longest s[left+1 : right]; O(n²) time, O(1) space; Manacher does it in O(n).
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 29 of 30** · 1-D DP (1 of 2)
+
+[← Previous: Q30 · Alien Dictionary](../0269-alien-dictionary/NOTES.md) · [Course index](../INDEX.md) · [Next: Q11 · Maximum Product Subarray →](../0152-maximum-product-subarray/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

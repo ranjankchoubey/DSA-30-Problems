@@ -124,3 +124,15 @@ Result: 3 with left child 9 and right child 20, and 20 has children 15 and 7 →
 ## 10. One-line revision
 
 > The next preorder value is the root; its inorder index (from a hash map) splits the range into left and right; build left before right.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 19 of 30** · Trees (1 of 4)
+
+[← Previous: Q19 · Merge k Sorted Lists](../0023-merge-k-sorted-lists/NOTES.md) · [Course index](../INDEX.md) · [Next: Q23 · Lowest Common Ancestor of a Binary Tree II →](../1644-lowest-common-ancestor-of-a-binary-tree-ii/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

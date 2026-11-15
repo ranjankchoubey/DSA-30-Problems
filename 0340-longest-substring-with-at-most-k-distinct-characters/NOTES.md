@@ -150,3 +150,15 @@ def longest_k_distinct_stream(stream, k):
 ## 10. One-line revision
 
 > Grow right, count types in a dict; while it has more than k keys, decrement s[left] (delete at 0) and move left; best = max(best, right − left + 1).
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 7 of 30** · Sliding Window (1 of 3)
+
+[← Previous: Q2 · Trapping Rain Water](../0042-trapping-rain-water/NOTES.md) · [Course index](../INDEX.md) · [Next: Q4 · Minimum Window Substring →](../0076-minimum-window-substring/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

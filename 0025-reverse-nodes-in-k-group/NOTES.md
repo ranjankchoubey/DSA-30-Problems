@@ -126,3 +126,15 @@ class Solution:
 ## 10. One-line revision
 
 > Dummy before head; per group, walk k steps (stop if short), reverse with prev = group_next, then group_prev.next = kth and group_prev = old first node.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 17 of 30** · Linked List (2 of 3)
+
+[← Previous: Q13 · LRU Cache](../0146-lru-cache/NOTES.md) · [Course index](../INDEX.md) · [Next: Q19 · Merge k Sorted Lists →](../0023-merge-k-sorted-lists/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

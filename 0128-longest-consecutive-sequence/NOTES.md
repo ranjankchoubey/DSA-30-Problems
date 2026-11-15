@@ -101,3 +101,15 @@ class Solution:
 ## 10. One-line revision
 
 > Put everything in a set; only start counting at x when x−1 is missing; each value is walked once, so O(n).
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 3 of 30** · Arrays & Hashing (3 of 4)
+
+[← Previous: Q7 · Product of Array Except Self](../0238-product-of-array-except-self/NOTES.md) · [Course index](../INDEX.md) · [Next: Q1 · Subarray Sum Equals K →](../0560-subarray-sum-equals-k/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

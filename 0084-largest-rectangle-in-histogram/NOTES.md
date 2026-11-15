@@ -150,3 +150,15 @@ class Solution:
 ## 10. One-line revision
 
 > Increasing stack of indices plus a 0 sentinel; when a bar is popped, the bar popping it is the right wall and the new top is the left wall: `area = h × (i − left − 1)`.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 12 of 30** · Stack (3 of 5)
+
+[← Previous: Q17 · Next Greater Element II](../0503-next-greater-element-ii/NOTES.md) · [Course index](../INDEX.md) · [Next: Q14 · Longest Valid Parentheses →](../0032-longest-valid-parentheses/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

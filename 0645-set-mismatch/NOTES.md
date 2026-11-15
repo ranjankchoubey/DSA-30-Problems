@@ -148,3 +148,15 @@ Index 1 is still positive, so **missing = 2**.
 ## 10. One-line revision
 
 > Value x owns index x−1: flip its sign. Already negative means duplicate; still positive at the end means missing.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 1 of 30** · Arrays & Hashing (1 of 4)
+
+[← Start Here](../START_HERE.md) · [Course index](../INDEX.md) · [Next: Q7 · Product of Array Except Self →](../0238-product-of-array-except-self/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

@@ -137,3 +137,17 @@ The last cell joins the `{(0,0), (0,1)}` island and the `{(1,2)}` island into on
 ## 10. One-line revision
 
 > New land → its own set (+1); union with each land neighbour, −1 per union that really merges; dict-based parent with path compression + union by rank = O(α) per addition; skip duplicates.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 25 of 30** · Graphs (3 of 3)
+
+[← Previous: Q26 · Word Ladder](../0127-word-ladder/NOTES.md) · [Course index](../INDEX.md) · [Next: Q29 · Network Delay Time →](../0743-network-delay-time/prerequisites/00-roadmap.md)
+
+> 🧭 **Next pattern: Advanced Graphs.** Read [09 · Advanced Graphs primer](../course/primers/09-advanced-graphs.md) before starting Q29.
+
+<!-- course-nav:end -->

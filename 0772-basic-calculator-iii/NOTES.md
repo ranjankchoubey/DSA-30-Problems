@@ -205,3 +205,17 @@ class Solution:
 ## 10. One-line revision
 
 > Number stack + operator stack: before pushing an operator, apply those on top with precedence ≥ it (stop at `(`); `)` applies down to `(`; unary minus is a top-precedence `neg`; divide with `int(a / b)`.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 14 of 30** · Stack (5 of 5)
+
+[← Previous: Q14 · Longest Valid Parentheses](../0032-longest-valid-parentheses/NOTES.md) · [Course index](../INDEX.md) · [Next: Q3 · Median of Two Sorted Arrays →](../0004-median-of-two-sorted-arrays/prerequisites/00-roadmap.md)
+
+> 🧭 **Next pattern: Binary Search.** Read [05 · Binary Search primer](../course/primers/05-binary-search.md) before starting Q3.
+
+<!-- course-nav:end -->

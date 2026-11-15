@@ -176,3 +176,15 @@ class Solution:
 ## 10. One-line revision
 
 > At most k stops = k + 1 flights: run k + 1 Bellman-Ford rounds, reading last round's copy; plain Dijkstra fails because a cheaper route with too many flights blocks a valid one.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 27 of 30** · Advanced Graphs (2 of 3)
+
+[← Previous: Q29 · Network Delay Time](../0743-network-delay-time/NOTES.md) · [Course index](../INDEX.md) · [Next: Q30 · Alien Dictionary →](../0269-alien-dictionary/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

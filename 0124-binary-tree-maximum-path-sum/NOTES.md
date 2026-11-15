@@ -132,3 +132,15 @@ The best path is 15 → 20 → 7, which bends at 20 and never reaches the root.
 ## 10. One-line revision
 
 > Postorder: arms = max(0, gain(child)); record val + left + right; return val + max(left, right); start best at −∞.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 21 of 30** · Trees (3 of 4)
+
+[← Previous: Q23 · Lowest Common Ancestor of a Binary Tree II](../1644-lowest-common-ancestor-of-a-binary-tree-ii/NOTES.md) · [Course index](../INDEX.md) · [Next: Q21 · Serialize and Deserialize Binary Tree →](../0297-serialize-and-deserialize-binary-tree/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

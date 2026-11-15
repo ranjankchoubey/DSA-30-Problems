@@ -144,3 +144,15 @@ class Solution:
 ## 10. One-line revision
 
 > need = Counter(t); grow right and bump formed when have[c] hits need[c]; while formed == required, record the window, then remove s[left] (drop formed if it was exactly at need).
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 8 of 30** · Sliding Window (2 of 3)
+
+[← Previous: Q9 · Longest Substring with At Most K Distinct Characters](../0340-longest-substring-with-at-most-k-distinct-characters/NOTES.md) · [Course index](../INDEX.md) · [Next: Q5 · Sliding Window Maximum →](../0239-sliding-window-maximum/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

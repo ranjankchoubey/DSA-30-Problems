@@ -118,3 +118,17 @@ def subarray_sum_segments(nums, k):
 ## 10. One-line revision
 
 > Count earlier prefix sums equal to current − k with a hash map that starts as {0: 1}; look up before inserting.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 4 of 30** · Arrays & Hashing (4 of 4)
+
+[← Previous: Q6 · Longest Consecutive Sequence](../0128-longest-consecutive-sequence/NOTES.md) · [Course index](../INDEX.md) · [Next: Q10 · 3Sum →](../0015-3sum/prerequisites/00-roadmap.md)
+
+> 🧭 **Next pattern: Two Pointers.** Read [02 · Two Pointers primer](../course/primers/02-two-pointers.md) before starting Q10.
+
+<!-- course-nav:end -->

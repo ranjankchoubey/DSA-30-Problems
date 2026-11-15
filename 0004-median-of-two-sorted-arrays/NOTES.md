@@ -213,3 +213,17 @@ After the swap, `A = [2]` and `B = [1,3]`, so `m = 1`, `n = 2`, `half = 2`.
 ## 10. One-line revision
 
 > Binary search the cut in the shorter array so that left halves total (m+n+1)/2 and a_left ≤ b_right and b_left ≤ a_right. The median comes from the four border values.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 15 of 30** · Binary Search (1 of 1)
+
+[← Previous: Q16 · Basic Calculator III](../0772-basic-calculator-iii/NOTES.md) · [Course index](../INDEX.md) · [Next: Q13 · LRU Cache →](../0146-lru-cache/prerequisites/00-roadmap.md)
+
+> 🧭 **Next pattern: Linked List.** Read [06 · Linked List primer](../course/primers/06-linked-list.md) before starting Q13.
+
+<!-- course-nav:end -->

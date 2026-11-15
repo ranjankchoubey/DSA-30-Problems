@@ -108,3 +108,15 @@ Index 3 (value 4, the maximum) stays on the stack and keeps `-1`. Index 4 needed
 ## 10. One-line revision
 
 > Decreasing stack of indices; loop `i` over `0..2n−1` reading `nums[i % n]` and push only in the first lap. Whoever pops you is your next greater.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 11 of 30** · Stack (2 of 5)
+
+[← Previous: Q20 · Min Stack](../0155-min-stack/NOTES.md) · [Course index](../INDEX.md) · [Next: Q15 · Largest Rectangle in Histogram →](../0084-largest-rectangle-in-histogram/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

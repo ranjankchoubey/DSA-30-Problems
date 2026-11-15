@@ -206,3 +206,15 @@ class MinStack:
 ## 10. One-line revision
 
 > Record the minimum at push time (pairs, or a second stack that grows only on a value ≤ min); a pop then brings back the old minimum for free.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 10 of 30** · Stack (1 of 5)
+
+[← Previous: Q5 · Sliding Window Maximum](../0239-sliding-window-maximum/NOTES.md) · [Course index](../INDEX.md) · [Next: Q17 · Next Greater Element II →](../0503-next-greater-element-ii/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

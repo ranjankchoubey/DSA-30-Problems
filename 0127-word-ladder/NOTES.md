@@ -199,3 +199,15 @@ def find_ladders(beginWord, endWord, wordList):
 ## 10. One-line revision
 
 > Words are nodes, one-letter changes are edges: BFS from begin (counting words), or bidirectional BFS expanding the smaller frontier until it hits the other; return 0 if end isn't in the list.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 24 of 30** · Graphs (2 of 3)
+
+[← Previous: Q25 · Course Schedule II](../0210-course-schedule-ii/NOTES.md) · [Course index](../INDEX.md) · [Next: Q27 · Number of Islands II →](../0305-number-of-islands-ii/prerequisites/00-roadmap.md)
+
+<!-- course-nav:end -->

@@ -131,3 +131,17 @@ At `x = 3` the best so far is 3, but `cur_min = −6` (`[-2, 3]`) is kept. At `x
 ## 10. One-line revision
 
 > Keep max and min product ending at i: candidates (x, x·max, x·min); a negative swaps them, a zero resets both; answer = largest max seen.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 30 of 30** · 1-D DP (2 of 2)
+
+[← Previous: Q12 · Longest Palindromic Substring](../0005-longest-palindromic-substring/NOTES.md) · [Course index](../INDEX.md) · 🎉 **End of the course!**
+
+> 🧭 **What next?** Continue with the patterns this course doesn't cover, in NeetCode roadmap order: Tries, Backtracking, Intervals, Greedy, 2-D DP, Bit Manipulation, Math & Geometry (<https://neetcode.io/roadmap>).
+
+<!-- course-nav:end -->

@@ -151,3 +151,17 @@ The symmetric argument handles the `else` branch. So moving the pointer on the s
 ## 10. One-line revision
 
 > Water at i = min(maxLeft, maxRight) − h[i]. Move the pointer on the smaller max side, because that side's water level is already decided.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 6 of 30** · Two Pointers (2 of 2)
+
+[← Previous: Q10 · 3Sum](../0015-3sum/NOTES.md) · [Course index](../INDEX.md) · [Next: Q9 · Longest Substring with At Most K Distinct Characters →](../0340-longest-substring-with-at-most-k-distinct-characters/prerequisites/00-roadmap.md)
+
+> 🧭 **Next pattern: Sliding Window.** Read [03 · Sliding Window primer](../course/primers/03-sliding-window.md) before starting Q9.
+
+<!-- course-nav:end -->

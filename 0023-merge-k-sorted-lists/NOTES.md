@@ -156,3 +156,17 @@ Ties (`1(0)` vs `1(1)`, `4(0)` vs `4(1)`) are broken by the list index.
 ## 10. One-line revision
 
 > Heap of (val, i, node) for the k heads: pop smallest, append, push its next, O(N log k) time and O(k) space; or merge lists in pairs for log k rounds, O(N log k) time and O(1) space.
+
+<!-- course-nav:start -->
+
+---
+
+### Course navigation
+
+**Problem 18 of 30** · Linked List (3 of 3)
+
+[← Previous: Q18 · Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/NOTES.md) · [Course index](../INDEX.md) · [Next: Q24 · Construct Binary Tree from Preorder and Inorder Traversal →](../0105-construct-binary-tree-from-preorder-and-inorder-traversal/prerequisites/00-roadmap.md)
+
+> 🧭 **Next pattern: Trees.** Read [07 · Trees primer](../course/primers/07-trees.md) before starting Q24.
+
+<!-- course-nav:end -->
