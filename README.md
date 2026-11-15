@@ -6,6 +6,7 @@ Teaching repo for **30 case-based Data Structure interview problems**, solved in
 | --- | --- |
 | 👉 **New here?** | [START_HERE.md](START_HERE.md): how to go through a problem and how to study when stuck |
 | 🗺️ **Course map** | [INDEX.md](INDEX.md): all 30 problems, status, teaching order, threads |
+| 🗓️ **4-day class plan** | [course/schedule-4-days.md](course/schedule-4-days.md): minute-by-minute schedule, 10 ★ anchor problems + 20 walkthroughs |
 | 📚 **Primers** | [course/primers/](course/primers/): one beginner page per pattern. Start with [Primer 00 · How to approach a new problem](course/primers/00-how-to-approach-a-new-problem.md) |
 | 📄 **Course questions** | [PDF](course/1.%20Data%20Structure%20-%20Technical_Interview_Case_Questions_With_Test_Cases.pdf) · [LeetCode list](https://leetcode.com/problem-list/00allxmd/) |
 

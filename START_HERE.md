@@ -1,6 +1,6 @@
 # Start Here
 
-How to use this repo to learn (and teach) the 30 course problems. The course map with status is in [INDEX.md](INDEX.md).
+How to use this repo to learn (and teach) the 30 course problems. The course map with status is in [INDEX.md](INDEX.md). Teaching it as a class? See the [4-day schedule](course/schedule-4-days.md).
 
 > 🧠 **Never solved this kind of problem before?** Read [Primer 00 · How to approach a problem you've never seen](course/primers/00-how-to-approach-a-new-problem.md) first. It's the 6-step method used everywhere in this repo.
 
