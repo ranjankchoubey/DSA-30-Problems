@@ -1,14 +1,14 @@
 # DSA-30-Problems
 
 Teaching repo for **30 case-based Data Structure interview problems** (Python).
-Course material: [questions (Markdown)](course/1.%20Data%20Structure%20-%20Technical_Interview_Case_Questions_With_Test_Cases.md) · [questions (PDF)](course/1.%20Data%20Structure%20-%20Technical_Interview_Case_Questions_With_Test_Cases.pdf) · [LeetCode list](https://leetcode.com/problem-list/00allxmd/)
+Course material: [questions (PDF)](course/1.%20Data%20Structure%20-%20Technical_Interview_Case_Questions_With_Test_Cases.pdf) · [LeetCode list](https://leetcode.com/problem-list/00allxmd/)
 
 ## Repo layout
 
 ```
 DSA-30-Problems/
 ├── README.md                  # this file: course index (top) + LeetHub topics (bottom, auto)
-├── course/                    # course question docs (md + pdf), prerequisites plan
+├── course/                    # course question PDF
 │   └── primers/               # one beginner primer per pattern (data structure, Python syntax, templates)
 ├── templates/NOTES_TEMPLATE.md
 └── NNNN-problem-slug/          # folder name = LeetHub's name (4-digit number + LeetCode URL slug)
@@ -106,8 +106,6 @@ Follows the NeetCode roadmap, so each pattern builds on the previous one:
 8. **Graphs**: Q25 → Q26 → Q27
 9. **Advanced Graphs**: Q29 → Q28 → Q30
 10. **1-D DP**: Q12 → Q11
-
-Full step list for every ladder: [course/prerequisites-plan.md](course/prerequisites-plan.md).
 
 ## Threads (ideas that connect the 30 problems)
 
