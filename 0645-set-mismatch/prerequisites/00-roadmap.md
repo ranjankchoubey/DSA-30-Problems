@@ -2,6 +2,8 @@
 
 **Goal:** `nums` should contain every number 1..n exactly once, but one number is duplicated and one is missing. Return `[duplicate, missing]` in **O(n) time and O(1) extra space**.
 
+> 🧠 **First problem of the course?** Read [Primer 00 · How to approach a problem you've never seen](../../course/primers/00-how-to-approach-a-new-problem.md) first.
+>
 > 📚 **Before you start:** read [Primer 01 · Arrays and Hashing](../../course/primers/01-arrays-and-hashing.md).
 
 ## Skills you need

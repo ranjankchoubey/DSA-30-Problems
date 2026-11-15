@@ -20,7 +20,7 @@ No recursion and no extra memory are needed.
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [tree basics](../../course/primers/07-trees.md#tree-basics)
 3. [LeetCode Editorial](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+lowest+common+ancestor+of+a+binary+search+tree)

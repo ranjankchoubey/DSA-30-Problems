@@ -24,7 +24,7 @@ So the left group is written whenever the node has **any** child, and the right 
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [tree traversals](../../course/primers/07-trees.md#tree-traversals)
 3. [LeetCode Editorial](https://leetcode.com/problems/construct-string-from-binary-tree/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+construct+string+from+binary+tree)

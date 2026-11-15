@@ -18,7 +18,7 @@ You get a list of words and a string `order` that is a reordering of the 26 lowe
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [hash map](../../course/primers/01-arrays-and-hashing.md#hash-set-and-hash-map)
 3. [LeetCode Editorial](https://leetcode.com/problems/verifying-an-alien-dictionary/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+verifying+an+alien+dictionary)

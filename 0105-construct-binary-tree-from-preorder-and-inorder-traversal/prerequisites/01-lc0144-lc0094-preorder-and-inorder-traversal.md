@@ -27,7 +27,7 @@ Without recursion, a **stack** does the call stack's job:
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [tree traversals](../../course/primers/07-trees.md#tree-traversals)
 3. [LeetCode Editorial 144](https://leetcode.com/problems/binary-tree-preorder-traversal/editorial/) · [LeetCode Editorial 94](https://leetcode.com/problems/binary-tree-inorder-traversal/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+binary+tree+inorder+traversal)

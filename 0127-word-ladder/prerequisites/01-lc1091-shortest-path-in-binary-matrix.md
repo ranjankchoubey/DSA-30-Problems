@@ -23,7 +23,7 @@ DFS has no such guarantee. It can reach the target first by a long winding path.
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [BFS](../../course/primers/08-graphs.md#bfs)
 3. [LeetCode Editorial](https://leetcode.com/problems/shortest-path-in-binary-matrix/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+shortest+path+in+binary+matrix)

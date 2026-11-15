@@ -15,7 +15,7 @@ Value `x` "owns" index `x − 1`. For every `x`, make `nums[x − 1]` **negative
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [index marking](../../course/primers/01-arrays-and-hashing.md#5-index-marking-values-in-1n)
 3. [LeetCode Editorial](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+find+all+numbers+disappeared+in+an+array)

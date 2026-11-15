@@ -25,7 +25,7 @@ reconnect: 2.next = 5, 1.next = 4  → 1 → 4 → 3 → 2 → 5
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [reversing a list](../../course/primers/06-linked-list.md#reversing-a-list) · [dummy node](../../course/primers/06-linked-list.md#dummy-node)
 3. [LeetCode Editorial](https://leetcode.com/problems/reverse-linked-list-ii/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+reverse+linked+list+ii)

@@ -17,7 +17,7 @@ Here the flood "sinks" land by overwriting `"1"` with `"0"`, which doubles as th
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [DFS](../../course/primers/08-graphs.md#dfs)
 3. [LeetCode Editorial](https://leetcode.com/problems/number-of-islands/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+number+of+islands)

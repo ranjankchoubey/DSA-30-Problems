@@ -17,7 +17,7 @@ Put `bank` in a `set` so each candidate check is O(1).
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [BFS](../../course/primers/08-graphs.md#bfs)
 3. [LeetCode Editorial](https://leetcode.com/problems/minimum-genetic-mutation/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+minimum+genetic+mutation)

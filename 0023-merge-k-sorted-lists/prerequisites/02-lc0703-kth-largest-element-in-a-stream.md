@@ -39,7 +39,7 @@ add(10): push 10 → pop 5 → [5, 8, 10]             → return 5
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [heap basics](../../course/primers/11-heap-priority-queue.md#heap-basics)
 3. [LeetCode Editorial](https://leetcode.com/problems/kth-largest-element-in-a-stream/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+kth+largest+element+in+a+stream)

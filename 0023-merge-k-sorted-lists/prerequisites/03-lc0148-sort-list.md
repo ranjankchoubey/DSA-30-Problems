@@ -26,7 +26,7 @@ merge up:  [2,4] , [1,3] → [1,2,3,4]
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [fast and slow pointers](../../course/primers/06-linked-list.md#fast-and-slow-pointers) · [dummy node](../../course/primers/06-linked-list.md#dummy-node)
 3. [LeetCode Editorial](https://leetcode.com/problems/sort-list/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+sort+list)

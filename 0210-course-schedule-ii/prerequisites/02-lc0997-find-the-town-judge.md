@@ -15,7 +15,7 @@ Treat each pair as an arrow `a → b`. Then the judge is the node with **out-deg
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [graph representation](../../course/primers/08-graphs.md#graph-representation)
 3. [LeetCode Editorial](https://leetcode.com/problems/find-the-town-judge/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+find+the+town+judge)

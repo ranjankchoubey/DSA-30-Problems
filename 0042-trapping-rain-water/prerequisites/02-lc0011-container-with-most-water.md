@@ -15,7 +15,7 @@ Start with the widest container, `l = 0` and `r = n − 1`. The **shorter** line
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [opposite ends](../../course/primers/02-two-pointers.md#opposite-ends)
 3. [LeetCode Editorial](https://leetcode.com/problems/container-with-most-water/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+container+with+most+water)

@@ -19,7 +19,7 @@ The answers to `isBadVersion(1), …, isBadVersion(n)` look like `F F F T T T`. 
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [binary search on a condition](../../course/primers/05-binary-search.md#binary-search-on-a-condition)
 3. [LeetCode Editorial](https://leetcode.com/problems/first-bad-version/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+first+bad+version)

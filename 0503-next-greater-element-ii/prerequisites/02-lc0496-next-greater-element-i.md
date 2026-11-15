@@ -20,7 +20,7 @@ Run the step 01 pass over `nums2` once, recording `next_greater[value] = the val
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [monotonic stack](../../course/primers/04-stack.md#monotonic-stack)
 3. [LeetCode Editorial](https://leetcode.com/problems/next-greater-element-i/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+next+greater+element+i)

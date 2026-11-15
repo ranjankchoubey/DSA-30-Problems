@@ -17,7 +17,7 @@ Pass the range as two indices `lo, hi` instead of slicing. Slicing copies the ar
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [recursion on trees](../../course/primers/07-trees.md#recursion-on-trees)
 3. [LeetCode Editorial](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+convert+sorted+array+to+binary+search+tree)

@@ -17,7 +17,7 @@ Stop when `nums2` is used up. Whatever is left of `nums1` is already in place.
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [working with two sorted arrays](../../course/primers/05-binary-search.md#working-with-two-sorted-arrays)
 3. [LeetCode Editorial](https://leetcode.com/problems/merge-sorted-array/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+merge+sorted+array)

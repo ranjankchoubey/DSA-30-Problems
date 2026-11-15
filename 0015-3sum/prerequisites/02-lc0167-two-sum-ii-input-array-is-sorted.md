@@ -23,7 +23,7 @@ Each step throws away one value that can't be in the answer, so at most `n − 1
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [opposite ends](../../course/primers/02-two-pointers.md#opposite-ends)
 3. [LeetCode Editorial](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+two+sum+ii+input+array+is+sorted)

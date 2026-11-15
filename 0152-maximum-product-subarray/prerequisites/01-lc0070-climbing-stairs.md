@@ -55,7 +55,7 @@ Two fixes, both O(n), give the two styles of DP:
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [what is dynamic programming](../../course/primers/10-1d-dp.md#what-is-dynamic-programming)
 3. [LeetCode Editorial](https://leetcode.com/problems/climbing-stairs/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+climbing+stairs)

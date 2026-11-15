@@ -19,7 +19,7 @@ Checking every substring separately is O(n³). Expanding reuses the inner palind
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [expand around centre](../../course/primers/10-1d-dp.md#expand-around-centre)
 3. [LeetCode Editorial](https://leetcode.com/problems/palindromic-substrings/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+palindromic+substrings)

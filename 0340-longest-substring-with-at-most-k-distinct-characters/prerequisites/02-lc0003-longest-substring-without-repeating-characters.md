@@ -19,7 +19,7 @@ Each character enters the set once and leaves at most once, so the whole scan is
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [variable size window](../../course/primers/03-sliding-window.md#variable-size-window)
 3. [LeetCode Editorial](https://leetcode.com/problems/longest-substring-without-repeating-characters/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+longest+substring+without+repeating+characters)

@@ -26,7 +26,7 @@ Keep `op` = the operator **before** the current number. When a number ends (at t
 
 ## Stuck?
 
-Try for 15–20 minutes first. Then, in order:
+Try for 15–20 minutes first, using the [6-step method](../../course/primers/00-how-to-approach-a-new-problem.md). Then, in order:
 1. Re-read the **Key idea** above.
 2. Primer: [expression evaluation](../../course/primers/04-stack.md#expression-evaluation)
 3. [LeetCode Editorial](https://leetcode.com/problems/basic-calculator-ii/editorial/) · [NeetCode video](https://www.youtube.com/results?search_query=neetcode+basic+calculator+ii)

@@ -2,6 +2,8 @@
 
 How to use this repo to learn (and teach) the 30 course problems. The course map with status is in [INDEX.md](INDEX.md).
 
+> 🧠 **Never solved this kind of problem before?** Read [Primer 00 · How to approach a problem you've never seen](course/primers/00-how-to-approach-a-new-problem.md) first. It's the 6-step method used everywhere in this repo.
+
 ## The route through one problem
 
 ```
@@ -32,6 +34,7 @@ At the bottom of every NOTES, **Course navigation** links to the previous proble
 
 Every prerequisite step offers help in increasing levels, so you only see the answer when you need it:
 
+0. **[The 6-step method](course/primers/00-how-to-approach-a-new-problem.md)**: understand it, solve one example by hand, write the brute force, find the repeated work, pick a tool, then test.
 1. **Key idea**: the hint in the step file.
 2. **Primer**: the pattern's beginner page in [course/primers/](course/primers/), covering the data structure, Python syntax, templates and pitfalls.
 3. **LeetCode Editorial** and **NeetCode video**: linked in the step's *Stuck?* section.
